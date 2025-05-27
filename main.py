@@ -6,6 +6,12 @@ gemini_api_key = os.getenv("GEMINI_API_KEY")
 import streamlit as st
 gemini_api_key = st.secrets["GEMINI_API_KEY"]
 
+import streamlit as st
+
+gemini_api_key = st.secrets["GEMINI_API_KEY"]
+
+
+
 
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel, RunConfig
 
